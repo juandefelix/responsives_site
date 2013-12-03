@@ -159,7 +159,9 @@ ul.nav li a {
   }
 
   ul.nav {
-    margin-top : 15px;
+    width: 80%;
+    float: none;
+    margin: 15px auto;
   }
   #hometown img{
   margin: 0 auto;
@@ -168,3 +170,4 @@ ul.nav li a {
   .btn {
     display: none;
   }
+}
