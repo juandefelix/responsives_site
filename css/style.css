@@ -84,7 +84,7 @@ ul.nav li a {
 }
 
 #hometown h2{
-  margin: 0 auto;
+  margin-left: 14.285%;
   
 }
 
@@ -131,8 +131,6 @@ ul.nav li a {
   ul.nav li{
   margin-right: 20px;
   }
-
-
 }
 
 /* Small ----------- */
@@ -159,9 +157,7 @@ ul.nav li a {
   }
 
   ul.nav {
-    width: 80%;
-    float: none;
-    margin: 15px auto;
+    margin-top : 15px;
   }
   #hometown img{
   margin: 0 auto;
