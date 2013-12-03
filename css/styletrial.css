@@ -49,7 +49,7 @@ img{
 
 ul.nav {
   /*outline: 1px solid;*/
-  margin: 9.181% 0 9% 0; /*120px 0 0 0*/
+  margin: 18.181% 0 0 0; /*120px 0 0 0*/
   padding-left: 0;
   list-style: none;
   float: right;
@@ -169,12 +169,10 @@ ul.nav li a {
   }
 
   #squirrel img{
-    max-width: 20%;
     padding: 0px;
   }
 
   ul.nav {
-    float: none;
     margin-top : 15px;
   }
   #hometown img{
