@@ -13,8 +13,8 @@ a {
 
 h1 {
   color: #6B4724;
-  font-size: 1.750em;
-  letter-spacing: -1.5px;
+  font-size: 1.750em;/*28px*/
+  letter-spacing: 5.357%; /*-1.5px*/
 }
 
 h2 {
@@ -25,6 +25,15 @@ h2 {
 p{
   font-size: 1.0em;
 }
+
+img{
+  max-width: 100%;
+}
+
+.border-image{
+  border: solid 5px #957B62;
+}
+
 .btn {
   color: #FAF3BC;
   background: #6B4724 url('img/texture.png') no-repeat right top;
@@ -39,7 +48,7 @@ p{
 }
 
 ul.nav {
-  margin: 120px 0 0 0;
+  margin: 18.181% 0 0 0; /*120px 0 0 0*/
   list-style: none;
   float: right;
 }
@@ -59,37 +68,32 @@ ul.nav li a {
 }
 
 #intro {
-  margin: 70px 0 10px 0;
+  margin: 7% 0 1% 0;/*70px 0 10px 0;*/
   text-align: center;
 }
 
 #hometown{
   float:right;
-  margin-top: 35px;
+  margin-top: 3.5%;/*35px;*/
   
 }
 
 #hometown h2{
-  margin-left: 70px;
-  margin-bottom: 5px;
+  margin-left: 14.285%;/*70px;*/
+  margin-bottom: 1.086%;/*5px;*/
 }
 
 #hometown img{
-  border: solid 5px #957B62;
-  margin-left: 70px;
-  margin-bottom: 20px
+  margin-left: 14.285%;/*70px;*/
+  margin-bottom: 4.081%;/*20px*/
 
 }
-#new-cupcakes img {
-  border: 8px solid #957B62;
-  margin: 0 0 0px 0;
+#hard-boiled-egg img {
+  margin: 0 0 0 0;
 }
 
-#featured-cupcake img {
- margin-bottom: 20px;
-}
-#featured-cupcake img {
-  border: 8px solid #957B62;
+#dog img {
+ margin-bottom: 3.478%;/*20px;*/
 }
 
 #hobbies{
@@ -110,8 +114,8 @@ ul.nav li a {
 #copyright {
   color: #6B4724;
   border-top: 8px solid #957B62;
-  padding: 10px 0px;
-  margin: 15px 0px;
+  padding: 1%;/*10px 0px;*/
+  margin: 1.5% 0;/*15px 0px;*/
   text-align: center;
 }
 
