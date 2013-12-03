@@ -64,7 +64,7 @@ ul.nav li {
 
 ul.nav li a {
   /*outline: 1px solid blue;*/
-  color: #FAF3BC;
+  color: #6B4724;
   font-size: 1.25em;
 }
 
@@ -102,23 +102,23 @@ ul.nav li a {
 }
 
 #hobbies{
-  color: #FAF3BC;
+  color:color: #6B4724;/*color: #FAF3BC;*/
 }
 
 #hobbies h2{
-  color: #FAF3BC;
+  color: #6B4724;
 }
 #contact{
-  color: #FAF3BC;
+  color: #6B4724;
 }
 
 #contact h2{
-  color: #FAF3BC;
+  color: #6B4724;
 }
 
 #copyright {
   color: #6B4724;
-  border-top: 8px solid #957B62;
+  border-top: 4px solid #957B62;
   padding: 1%;/*10px 0px;*/
   margin: 1.5% 0;/*15px 0px;*/
   text-align: center;
@@ -126,11 +126,11 @@ ul.nav li a {
 
 /*media queries*/
 
-/* IPad portrait---------------*/
+/* Medium resolution--------------*/
 @media screen and (max-width : 1024px) {
 
   ul.nav{
-   /* margin: 0;*/
+    margin-right: 4.53%;
     padding: 0;
     /*list-style-type: none;*/
     text-align: center;
@@ -149,8 +149,8 @@ ul.nav li a {
     padding: .2em .5em;
 }
 
-/* Small ----------- */
-@media screen and (max-width : 480px) {
+/* Small Resolution----------- */
+@media screen and (max-width : 529px) {
   .grid_1,
   .grid_2,
   .grid_3,
@@ -168,6 +168,10 @@ ul.nav li a {
     text-align: center;
   }
 
+  #intro{
+    margin-top: 0px;
+  }
+
   #squirrel img{
     max-width: 20%;
     padding: 0px;
@@ -178,6 +182,11 @@ ul.nav li a {
     margin-top : 15px;
   }
   #hometown img{
+  margin: 0 auto;
+  
+  }
+
+  #hometown h2{
   margin: 0 auto;
   
   }
