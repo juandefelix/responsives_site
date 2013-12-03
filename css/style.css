@@ -1,13 +1,14 @@
 body {
   font-family: 'Signika Negative', sans-serif;
   color: #6B4724;
-  background: #FFCC99 url('img/backgr.png') repeat;
+  background: url('img/backgr.png') repeat;
 
 }
 
 a {
   color: #2E1F0F;
   text-decoration: none;
+  font-size: 1.0em;
 }
 
 h1 {
@@ -21,6 +22,9 @@ h2 {
   font-size: 1.500em;
 }
 
+p{
+  font-size: 1.0em;
+}
 .btn {
   color: #FAF3BC;
   background: #6B4724 url('img/texture.png') no-repeat right top;
@@ -47,6 +51,7 @@ ul.nav li {
 
 ul.nav li a {
   color: #FAF3BC;
+  font-size: 1.25em;
 }
 
 #squirrel img{
