@@ -1,0 +1,112 @@
+body {
+  font-family: 'Signika Negative', sans-serif;
+  color: #6B4724;
+  background: #FFCC99 url('img/backgr.png') repeat;
+
+}
+
+a {
+  color: #2E1F0F;
+  text-decoration: none;
+}
+
+h1 {
+  color: #6B4724;
+  font-size: 1.750em;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  color: #6B4724;
+  font-size: 1.500em;
+}
+
+.btn {
+  color: #FAF3BC;
+  background: #6B4724 url('img/texture.png') no-repeat right top;
+  padding: 15px 30px;
+  margin: 40px 0px;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #957B62;
+}
+
+ul.nav {
+  margin: 120px 0 0 0;
+  list-style: none;
+  float: right;
+}
+
+ul.nav li {
+  float: left;
+  margin-right: 40px;
+}
+
+ul.nav li a {
+  color: #FAF3BC;
+}
+
+#squirrel img{
+  padding: 20px 0 0 110px;
+}
+
+#intro {
+  margin: 70px 0 10px 0;
+  text-align: center;
+}
+
+#hometown{
+  float:right;
+  margin-top: 35px;
+  
+}
+
+#hometown h2{
+  margin-left: 70px;
+  margin-bottom: 5px;
+}
+
+#hometown img{
+  border: solid 5px #957B62;
+  margin-left: 70px;
+  margin-bottom: 20px
+
+}
+#new-cupcakes img {
+  border: 8px solid #957B62;
+  margin: 0 0 0px 0;
+}
+
+#featured-cupcake img {
+ margin-bottom: 20px;
+}
+#featured-cupcake img {
+  border: 8px solid #957B62;
+}
+
+#hobbies{
+  color: #FAF3BC;
+}
+
+#hobbies h2{
+  color: #FAF3BC;
+}
+#contact{
+  color: #FAF3BC;
+}
+
+#contact h2{
+  color: #FAF3BC;
+}
+
+#copyright {
+  color: #6B4724;
+  border-top: 8px solid #957B62;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  text-align: center;
+}
+
