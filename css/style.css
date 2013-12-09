@@ -26,11 +26,11 @@ p{
   font-size: 1.0em;
 }
 
-img{
+img, object{
   max-width: 100%;
 }
 
-.border-image{
+.border-image img{
   border: solid 5px #957B62;
 }
 
@@ -93,11 +93,13 @@ ul.nav li a {
   margin-bottom: 4.081%;/*20px*/
 
 }
-#hard-boiled-egg img {
+#hard-boiled-egg img, p {
   margin: 0 0 0 0;
+  margin-left: 1.72%;
 }
 
 #dog img {
+ /*border: solid 5px #957B62;*/
  margin-bottom: 3.478%;/*20px;*/
 }
 
@@ -105,16 +107,16 @@ ul.nav li a {
   color:color: #6B4724;/*color: #FAF3BC;*/
 }
 
-#hobbies h2{
+#hobbies h2, #contact, #contact h2{
   color: #6B4724;
 }
-#contact{
+/*#contact{
   color: #6B4724;
 }
 
 #contact h2{
   color: #6B4724;
-}
+}*/
 
 #copyright {
   color: #6B4724;

@@ -5,8 +5,10 @@
   	<title>Cool Juan Ortiz's Website</title>
     <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Signika+Negative:600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Signika+Negative:600' rel='stylesheet' type='text/css'>
+    <script src="external/matchmedia.js"></script>
+    <script src="picturefill.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
 
   </head>
@@ -33,23 +35,61 @@
         <p><a href="#" class="btn">Button out of service </a></p>
       </div>
 
-      <div id="hometown"class="grid_6 omega">
+      <div id="hometown"class="border-image grid_6 omega">
         <h2>Madrid, my hometown</h2>
-        <img class='border-image' src="img/madrid.jpg" alt="madrid" style=" width: 81.632%; height: auto">
+        <div data-picture data-alt="Dog">
+              <div data-src="external/imgs/madrid-small.jpg"></div>
+              <div data-src="external/imgs/madrid-medium.jpg"     data-media="(min-width: 400px)"></div>
+              <div data-src="external/imgs/madrid-large.jpg"      data-media="(min-width: 800px)"></div>
+              <div data-src="external/imgs/madrid-extralarge.jpg" data-media="(min-width: 1000px)"></div>
+
+              <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+              <noscript>
+                <img src="img/madrid.jpg" alt="madrid" style=" width: 81.632%; height: auto">              
+              </noscript>
+          </div>
+
+        
       </div>
 
 
 
-      <div id="dog" class="grid_7">
+      <div id="dog" class="grid_7 border-image">
         <h2>I love my dog</h2>
         <p>This is my dog. Her name is Blues. I picked her up from the street.<br>She changed my life.</p>
-        <img class='border-image' src="img/blues.jpg" alt="dog" style=" width: 86.956%; height: auto">
+
+        <div data-picture data-alt="Dog">
+              <div data-src="external/imgs/blues-small.jpg"></div>
+              <div data-src="external/imgs/blues-medium.jpg"     data-media="(min-width: 400px)"></div>
+              <div data-src="external/imgs/blues-large.jpg"      data-media="(min-width: 800px)"></div>
+              <div data-src="external/imgs/blues-extralarge.jpg" data-media="(min-width: 1000px)"></div>
+
+              <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+              <noscript>
+                  <img class='border-image' src="img/blues-small.jpg" alt="dog" style=" width: 86.956%; height: auto">
+              </noscript>
+          </div>
+
+        
       </div>
       
-      <div id="hard-boiled-egg" class="grid_5 omega">
+      <div id="hard-boiled-egg" class=" border-image grid_5 omega">
           <h2> I can not stand hard-boiled eggs</h2>
           <p> And I have no reason for it. It can't even touch my plate. Am I weird? Probably...</p>
-          <img class='border-image' src="img/egg.jpg" alt="hard-boiled egg" style="width: 86.419%; height: auto">
+          
+          <div data-picture data-alt="Hard-boiled egg">
+              <div data-src="external/imgs/egg-small.jpg"></div>
+              <div data-src="external/imgs/egg-medium.jpg"     data-media="(min-width: 400px)"></div>
+              <div data-src="external/imgs/egg-large.jpg"      data-media="(min-width: 800px)"></div>
+              <div data-src="external/imgs/egg-extralarge.jpg" data-media="(min-width: 1000px)"></div>
+
+              <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+              <noscript>
+                  <img src="img/egg.jpg" alt="hard-boiled egg" style="width: 86.419%; height: auto">
+              </noscript>
+          </div>
+
+          
       </div>
       
 
@@ -70,8 +110,24 @@
         
 
         <p>You can try to reach me at Facebook and Twitter</p>    
-        <a href="http://www.facebook.com/SmellsLikeBakin"><img src="img/facebook.gif" alt="Facebook"></a>
-        <a href="https://twitter.com/#!/smellslikebakin"><img src="img/twitter.gif" alt="Twitter"></a>
+        <a href="http://www.facebook.com/SmellsLikeBakin">
+          <object data="img/facebook.svg" type="image/svg+xml" class="chart">
+            <a href="img/facebook.svg">
+              <!--[if lte IE8]-->
+                <img src="img/facebook.gif" alt="Facebook">
+              <!--[endif]-->
+            </a>
+          </object>
+        </a>
+        <a href="https://twitter.com/#!/smellslikebakin">
+          <object data="img/twitter.svg" type="image/svg+xml" class="chart">
+            <a href="img/twitter.svg">
+              <!--[if lte IE8]-->
+                <img src="img/twitter.gif" alt="Twitter"></a>
+              <!--[endif]-->
+            </a>
+          </object>
+
       </div>
 
       <div id="copyright" class="grid_12">
